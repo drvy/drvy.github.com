@@ -1,7 +1,7 @@
 # General
 name: Drvy's Blog
 description: "Desarrollo web y otras cosas..."
-url: http://localhost:4000
+url: https://blog.drvy.net
 
 markdown: redcarpet
 highlighter: pygments
