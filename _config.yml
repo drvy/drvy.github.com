@@ -1,7 +1,7 @@
 # General
 name: Drvy's Blog
 description: "Desarrollo web y otras cosas..."
-url: http://drvy.gitbug.io
+url: http://drvy.github.io
 
 markdown: redcarpet
 highlighter: pygments
