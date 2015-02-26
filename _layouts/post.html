@@ -8,7 +8,7 @@ layout: default
         <h1>{{ page.title }}{{ .shortUrl }}</h1>
         <hr>
         {{ content }}
-        <p class="top"><small><a href="#top">[top]</a></small></p>
+        <p class="top"><small><a href="#top">[arriba]</a></small></p>
     </article>
 
 
@@ -27,9 +27,9 @@ layout: default
             {% endfor %}
 
             <li class="fb">
-            <a target="_blank" title="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?t={{ page.title }}&u={{ url }}">Facebook</a></li>
-            <li class="tw"><a target="_blank" title="Share on Twitter" href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ url }}&via={{ site.twitter }}&hashtags={{ tagStr }}">Twitter</a></li>
-            <li class="gp"><a target="_blank" title="Share on Google+" href="https://plus.google.com/share?url={{ url }}">Google+</a></li>
+            <a target="_blank" title="Compartir en Facebook" href="https://www.facebook.com/sharer/sharer.php?t={{ page.title }}&u={{ url }}">Facebook</a></li>
+            <li class="tw"><a target="_blank" title="Compartir en Twitter" href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ url }}&via={{ site.twitter }}&hashtags={{ tagStr }}">Twitter</a></li>
+            <li class="gp"><a target="_blank" title="Compartir en Google+" href="https://plus.google.com/share?url={{ url }}">Google+</a></li>
         </ul>
     </div>
 
