@@ -11,9 +11,9 @@
     "lint:fix": "eslint . --fix",
     "build": "npx @11ty/eleventy & npx tailwindcss -i ./tailwind.css -o _site/assets/styles/tailwind.css"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["blog", "drvy", "eleventy", "tailwindcss", "markdown"],
+  "author": "Dragomir Yordanov",
+  "license": "MIT",
   "dependencies": {
     "@11ty/eleventy": "^2.0.1",
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
