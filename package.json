@@ -1,6 +1,6 @@
 {
-  "name": "my-blog",
-  "version": "1.0.0",
+  "name": "drvy-blog",
+  "version": "3.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
