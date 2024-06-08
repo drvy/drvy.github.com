@@ -8,6 +8,7 @@ export const theme = {
         black: colors.black,
         white: colors.white,
         gray: colors.gray,
+        red: colors.red,
         dbg: '#f0f0f0',
         dbb: 'rgb(210,210,210)',
         dt: '#112a3d',
@@ -24,7 +25,7 @@ export const theme = {
         }
     }
 }
-export const content = ['./src/**/*.md', './src/**/*.html', './src/_includes/**/*.liquid']
+export const content = ['./src/**/*.md', './src/**/*.html', './src/_includes/**/*.liquid', '.eleventy.js']
 export const plugins = [
     require('@tailwindcss/typography')
 ]
