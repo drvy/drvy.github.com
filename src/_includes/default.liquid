@@ -1,11 +1,13 @@
 ---
 layout: main
 ---
-
 <h1 class="text-3xl md:text-4xl font-black pt-5 leading-tight">
- {{ title }}
+ {{ site.title }}
 </h1>
-<h2 class="text-1xl md:text-1xl font-black pt-2 pb-10">Security, DevOps and stuff...</h2>
+
+<h2 class="text-1xl md:text-1xl font-black pt-2 pb-10">
+    {{ site.description }}
+</h2>
 
 {% include "nav.liquid" %}
 
