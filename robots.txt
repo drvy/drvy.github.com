@@ -1,4 +1,0 @@
-Sitemap: https://drvy.net/sitemap.xml
-
-User-agent: *
-Disallow:
